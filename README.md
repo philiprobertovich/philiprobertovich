@@ -10,3 +10,6 @@ This project uses Python's Pandas library to source data from a JSON file about 
 
 ## Airflow 2 
 This project utilizes key Airflow features to create a DAG based around a CSV file. The key features include using sensors that check for the existance of the CSV file, Xcoms that will transfer outputs in between different DAG tasks, and Decorators which will help make the code that constructs the tasks and DAG to be more concise.
+
+## Team Week 2
+This project was also a group collabrative project with two other of my classmates where we took various datasets revolved around crime data in various cities across the U.S. and created a ELT pipeline. We used Python's Pandas library to extract our data from CSV files and loaded them to Google's BigQuery. Then we used dbt to preform all our transformations. My contributions dealt with the cities of Portland and Boston. 
